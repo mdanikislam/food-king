@@ -158,18 +158,26 @@ body{
 .input-field {
         width:100% ;
         color: black;
-        margin: 10px;
         padding: 10px;
         display: inline-block;    
     }
 .input{
-        width:30%;
-        height:35px;
+        width:40%;
+        height:40px;
+        border: none;
+    border-radius: 10px;
+    padding-left: 20px;
         
     }
 .input-message{
-    width:30%;
-    height:100px;
+    width:40%;
+    height:80px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+
+    
+
 }
 
     #sendMessageButton{
