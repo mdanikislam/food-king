@@ -9,11 +9,12 @@ body{font-family: 'Poppins', sans-serif;
      padding-right: 40px;
  }
  .half-width img{
-     width: 15%;
+     width: 135px;
      padding-left: 30px;
      
  }
  .navbar{
+     padding-top: 2%;
      display: flex;
  }
     ul {
@@ -43,7 +44,7 @@ body{font-family: 'Poppins', sans-serif;
   }
   .heading{
     padding-top: 50px;
-      padding-left: 40px;
+      padding-left: 50px;
       text-align: justify;
      
       
