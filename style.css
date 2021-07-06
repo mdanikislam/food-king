@@ -8,8 +8,8 @@ body{
         display: flex;
         margin:3% 7%;
     }
- /*      Start Navbar      */
 
+ /* ------------Start Navbar---------------*/
  .half-width{
      width: 50%;
     
@@ -33,11 +33,10 @@ body{
         padding: 10px;
         text-decoration: none;
       }
+ /*-----------------------------End Navbar-----------------------------*/
 
-       /*      End Navbar      */
-
-       /*         Start-Body-Part-1    */
-.body1{
+ /* --------------------------Start Hero Area------------------------ */
+.hero-area{
            display: flex;
            
 }
@@ -62,29 +61,40 @@ body{
       font-weight: 700px;
       text-decoration: none;
   }
+/* --------------------End Hero Area---------------*/
 
-/*         End-Body-Part-2           */
-.body2{
-    
-   
-    background-image: url(images/shapes/Frame\ 59.jpg);
-    background-repeat: no-repeat;
+
+/* ---------------------Start About me--------------- */
+#about-me {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
     background-size: cover;
-    height: 500px;   
+    background-position: center;
+    margin: 120px 0px;
 }
-.half-width2{
+
+.about-left,
+.about-right {
     width: 50%;
-    
-}
-.half-width2 img{
-    width: 50%; 
-       
 }
 
+.about-left img {
+    width: 50%;
+    padding: 10% 20% 0 30%;
+}
 
-/*--------------Start Recipies----------------- */
+.about-right {
+    color: #707070;
+    padding: 5% 15% 0 15%;
+    line-height: 1.2;
+}
 
+.about-right p {
+    padding: 25px 0;
+}
+/* ------------------------End About Me-------------------- */
 
+/*------------------------Start Recipies---------------- */
 .half-width3{
     position: relative;
     width: 100/3%;
@@ -103,20 +113,29 @@ body{
     text-align: center;
     
 }
+.recipies{
+    margin: 20px 0px;
+}
+/* -------------------------------End Recipies------------------------- */
 
-/* --------------End Recipies---------------- */
 
 
+/*  -------------------------------Start Pricing----------------------- */
+/* Same css Recipies  */
+
+.pricing{
+    color: rgb(194, 0, 0);
+    
+}
+/* --------------------------------------End Pricing------------------- */
+
+/* -------------------------------------Start Subscribers/Follower-------------------- */
 #subscrivers
 {
     display: flex;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.192);
     border-radius: 20px;
-    margin: 10%;
-    
-   
-    
-    
+    margin: 9%;    
 }
 
 .subscribers-follw{
@@ -125,9 +144,44 @@ body{
     width: 50%;
     padding: 10px;    
 }
+/* -----------------------------------------End Subscribers Follwer------------------------ */
 
+/*  ------------------------------------------Start Contact---------------------------  */
+.contact-form{
+    background-color:#ff9b17;
+    box-sizing: border-box;
+    width: 100%;
+    text-align:center;
+    padding: 30px 0px;
+}
 
-/*  --------------------------- Contact------------------  */
+.input-field {
+        width:100% ;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;    
+    }
+.input{
+        width:30%;
+        height:35px;
+        
+    }
+.input-message{
+    width:30%;
+    height:100px;
+}
+
+    #sendMessageButton{
+        color: white;
+        font-size: 17px;
+        padding:10px 30px;
+        background-image: linear-gradient(orange, tomato);
+        text-decoration: none;
+    }
+/* ----------------------------------------------End Contact Form----------------------- */
+
+/* -----------------------------------------Start Footer---------------------------- */
 .copyright{
     
     background-color: #414141;
@@ -139,42 +193,6 @@ body{
     
 }
 .name-color{
-    color: rgba(253, 163, 27, 0.945);
+    color: #FF8127;
 }
-
-
-.contact-form{
-    background-color:rgba(253, 174, 27, 0.664);
-    box-sizing: border-box;
-    width: 100%;
-    text-align:center;
-    padding: 30px 0px;
-}
-.input-field{
-    width:130px ;
-    color: black;
-    font-size: 15px;
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
-}
-.wrapper{
-    background-color: rgb(253, 174, 27);
-    width: 500px;
-    padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-}
-
-/* ------------End Contact Form------------ */
-
-
-
-
-/*  Start Pricing */
-
-.pricing{
-    color: rgb(194, 0, 0);
-    
-}
-/* ------End Pricing-------- */
+/* --------------------------------------End Footer----------------------------------- */

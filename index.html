@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!-- Nav Bar Start -->
+    <!------------------------------- Nav Bar Start --------------------------------->
     <section class="navbar flexible-container">
         <div class="half-width"> <a href="index.html"><img src="images/logo.png" alt=""></a></div>
         <div class="half-width">
@@ -31,11 +31,13 @@
             </ul>
         </div>
     </section>
-    <!-- Nav Bar End -->
+    <!----------------------------------- Nav Bar End----------------------------- -->
 
-    <section class="body1 flexible-container">
+    <!--------------------------------------------- Start Hero Area--------------------------- -->
+    <section class="hero-area flexible-container">
         <div class="heading heading-half-width">
-            <h1 class="heading-font">Skip the Diet, Just Eat Healthy With Food King</h1>
+            <h1 class="heading-font"> <span class="name-color"> Skip</span> the Diet, Just Eat Healthy With Food King
+            </h1>
             <p>Imagine you don't need a diet beacuse we provide healthy and delicious food for you!</p>
 
             <a class="linear-button" href="https://mdanikislam.github.io/my-portfolio/index.html">Order Now</a>
@@ -44,28 +46,27 @@
             <img src="images/Group 8425.png" alt="">
         </div>
 
-    </section><br><br><br>
-
-    <!-- --------------------------Start About me ----------------------- -->
-    <section class="body2 flexible-container">
-        <div class="half-width2">
-            <img src="images/female/Person Image.png" alt="">
-        </div>
-        <div class="half-width2">
-            <h1>About Me</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur quae debitis nobis non est amet
-                blanditiis officia repellendus qui iusto! Omnis atque explicabo cumque officiis aperiam voluptates
-                aspernatur quas in.</p>
-            <a class="linear-button" href="https://mdanikislam.github.io/my-portfolio/index.html">Contact me</a>
-        </div>
-
-        <br><br>
-
     </section>
-    <!--  --------------------------End About me------------------------- -->
+    <!-- ------------------------------------End Hero Area--------------------------- -->
 
-    <!-- -------------------------------- Start Recipies ------------------------ -->
-    <section>
+    <!------------------------------------Start About me------------------------------------>
+    <section id='about-me'>
+        <div class='about-left'>
+            <img src='images/female/Person Image.png' alt=''>
+        </div>
+        <div class='about-right'>
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,
+                feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit
+                non.Non commodo volutpat, pharetra, vel.</p>
+            <a href="https://www.linkedin.com/in/theanikislam1" target="_blank" class="linear-button">Contact Me</a>
+        </div>
+    </section>
+    <!--  ------------------------------End About me---------------------------- -->
+
+
+    <!-- ---------------------------- Start Recipies -------------------------- -->
+    <section class="recipies">
         <div class="recipies-text">
             <h2>My Recipies
             </h2>
@@ -92,14 +93,12 @@
                     spicy and meaty mouthfeel.</p>
             </div>
         </div>
+    </section><br><br>
+    <!--   ---------------------------------End Recipies--------------------------- -->
 
 
-    </section>
-    <!--   ---------------------End Recipies------------------ -->
-
-
-    <!-- ------------------Start  Pricing----------------- -->
-    <section>
+    <!-- ----------------------------------Start  Pricing------------------------ -->
+    <section class="recipies">
         <div class="recipies-text">
             <h2>Our Pricing
             </h2>
@@ -129,11 +128,10 @@
         </div>
 
     </section>
+    <!--  ---------------------------------End Pricing------------------------------- -->
 
-    <!--  -------------End Pricing------------ -->
 
-    <!-- --------Start Youtube Subscriver-------- -->
-
+    <!-- ---------------------------------------Start Youtube Subscriver-------------------- -->
     <section id="subscrivers">
         <div class="subscribers-follw">
             <h2>700k</h2>
@@ -148,39 +146,41 @@
             <p>Dribble shot likes</p>
         </div>
     </section>
+    <!-- -------------------------------End Youtube Subscriber------------------------------- -->
 
-    <!-- ------End Youtube Subscriber------ -->
-
-    <!--  ------------------------------Start Contact Form------------------ -->
+    <!--  -----------------------------Start Contact Form--------------------------------- -->
     <section class="contact-form">
-        <div class="">
-            <div class="wrapper">
-                <h2>Contact</h2>
-            <form action="">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rem?</p>
+            <div>
                 <div class="input-field">
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="f_name" name="First Name" placeholder="Enter Your First Name"
-                        required><br><br>
-                    <label for="phn">Your Phone Number:</label>
-                    <input type="tel" id="phn" name="Phone Nmber" aria-placeholder="Enter Your Phone Number"
-                        value="+880" required><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="Email" placeholder="Enter Your Phone Email" required> <br><br>
-                    <textarea id="message" placeholder="Your Message" required="required"
-                        data-validation-required-message="Please enter a message."></textarea><br>
-                    <button type="submit" id="sendMessageButton">Sent Message</button>
+                    <input type=" text" class="input" placeholder="Enter Your Name" required>
+                </div>
+                <div class="input-field">
+
+                    <input type="text" class="input" placeholder="Enter Your Email" required>
                 </div>
             </div>
-            
+            <div class="input-field">
+                <textarea class="input-message"id="message" placeholder="Your Message" required="required"
+                    data-validation-required-message="Please enter a message."></textarea>
+            </div>
+
+            <div >
+                <button id="sendMessageButton" data-text="Send Message" type="submit">Send Message</button>
+            </div>
 
         </div>
+
+        
+
     </section>
-<!----------------------------------- End Contact Form---------------------------------- -->
+    <!----------------------------------- End Contact Form---------------------------------- -->
 
 
     <!-- -----------------------------------Start Footer----------------------------------- -->
     <Footer class="copyright">
-        <h2>Food king</h2>
+        <h2> <span class="name-color">Food</span> king</h2>
         <p>Eat healthy to live healthy. Live healthy to live happy.</p>
         <p>All Rights Reserved. © 2021 <span class="name-color"> Food King</span> Design By : <span class="name-color">
                 Md. Anik Islam </span></p>
