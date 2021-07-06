@@ -1,27 +1,30 @@
-body{font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 10px;
+    padding: 0;
+    }
+    .flexible-container{
+        display: flex;
+        margin:3% 7%;
     }
  /*      Start Navbar      */
 
  .half-width{
      width: 50%;
-     padding-right: 40px;
+    
  }
  .half-width img{
-     width: 135px;
-     padding-left: 30px;
+     width: 120px;
+     
      
  }
  .navbar{
-     padding-top: 2%;
-     display: flex;
+
+    
  }
     ul {
         list-style-type: none;
-        margin: 0;
-        padding-right: 20px;
-        overflow: hidden;
        
       }
      li {
@@ -31,7 +34,7 @@ body{font-family: 'Poppins', sans-serif;
         display: block;
         color: rgb(0, 0, 0);
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px;
         text-decoration: none;
       }
 
@@ -41,18 +44,15 @@ body{font-family: 'Poppins', sans-serif;
 .body1{
            display: flex;
            
-  }
-  .heading{
-    padding-top: 50px;
-      padding-left: 50px;
-      text-align: justify;
-     
-      
+}
+  .heading-font{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 40%;
+    line-height: 1.3;
   }
     .heading-half-width{
            width: 50%;
-           padding-top: 20px;
-
   }
   .heading-half-width img{
       width: 65%;
@@ -70,30 +70,69 @@ body{font-family: 'Poppins', sans-serif;
 /*         End-Body-Part-2           */
 .body2{
     
-    display: flex;
+   
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    padding: 50px 200px;
-    margin: 0px;
-
-
-    
-
-   
+    height: 500px;   
 }
 .half-width2{
     width: 50%;
-    text-align: justify;
+    
+}
+.half-width2 img{
+    width: 50%; 
+       
+}
+
+
+/*--------------Start Recipies----------------- */
+
+
+.half-width3{
+    position: relative;
+    width: 100/3%;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.192);
+    text-align: center;
+    border-radius: 30px;
+    padding:20px ;
+    margin-left:25px;
+}
+.recipies-img1 img{
+    width: 320px;
+    height: 256px;
+    border-radius:20px ;   
+}
+.recipies-text{
+    text-align: center;
+    
+}
+
+/* --------------End Recipies---------------- */
+
+
+#subscrivers
+{
+    display: flex;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    margin: 10%;
     
    
     
     
-    
-    
-}
-.half-width2 img{
-    width: 50%;    
 }
 
+.subscribers-follw{
+    
+    text-align: center;
+    width: 50%;
+    padding: 10px;    
+}
+
+/*  Start Pricing */
+
+.pricing{
+    color: rgb(155, 0, 0);
+    
+}
